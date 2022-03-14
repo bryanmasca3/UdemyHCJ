@@ -1,0 +1,21 @@
+:root{
+    --blanco:#fff;
+    --negro:#000;
+    --gris:#343A40;
+    --fuentePrincipal:'Raleway', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: var(--fuentePrincipal);
+    font-size: 1.6rem;
+}
+h1,h2,h3{
+    font-weight: 900;
+    margin: 1rem 0 4rem 0;
+}
